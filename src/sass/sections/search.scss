@@ -10,10 +10,8 @@
     background-size: 380px 100%;
     background-repeat: no-repeat;
   }
+
   @media (max-width: 767px) {
-    background-image: none;
-  }
-  @media (max-width: 750px) {
     .search-box-content {
       margin:16px;
 

@@ -18,12 +18,9 @@
       background-repeat: no-repeat;
       background-size: 348px 100%;
     }
-    @media (max-width: 767px) {
-      background-image: none;
-    }
     z-index: 2;
 
-    @media (max-width: 750px) {
+    @media (max-width: 767px) {
       .promo-banner-box-content {
         padding-top: 26px;
         padding-left: 14px;
