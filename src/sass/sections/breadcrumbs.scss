@@ -1,0 +1,44 @@
+@media (min-width: 767px) {
+  .breadcrumbs {
+    margin-top: 24px;
+    padding: 6px;
+    display: inline-flex;
+    align-items: center;
+
+    img {
+      &:first-child {
+        display: none;
+        //transform: rotate(180deg) ;
+      }
+    }
+
+    span {
+      margin: 0 8px;
+      color: $desc-txt-color;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .breadcrumbs {
+    margin-top: 24px;
+    padding: 6px;
+    display: inline-flex;
+    align-items: center;
+
+    .hide{
+      display: none;
+    }
+
+    img {
+      &:first-child {
+        transform: rotate(180deg) ;
+      }
+    }
+
+    span {
+      margin: 0 8px;
+      color: $desc-txt-color;
+    }
+  }
+}

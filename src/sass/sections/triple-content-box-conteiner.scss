@@ -1,0 +1,140 @@
+@media (max-width: 767px) {
+  .img-triple-content-box {
+    display: none;
+  }
+}
+
+@media (min-width: 767px) {
+
+  .img-triple-content-box {
+    margin-top: 16px;
+    display: flex;
+
+    .trip-box-left {
+      img {
+        max-width: 337px;
+        width: 100%;
+      }
+
+      img + .date-box-line {
+        max-width: 151px;
+        width: 100%;
+      }
+
+      img + .header-box-line {
+        max-width: 229px;
+        width: 100%;
+      }
+
+      img + .content-box-line {
+        max-width: 337px;
+        width: 100%;
+      }
+    }
+
+    .trip-box-center {
+      margin-right: 32px;
+      margin-left: 32px;
+
+      img {
+        max-width: 337px;
+        width: 100%;
+      }
+
+      img + .date-box-line {
+        max-width: 151px;
+        width: 100%;
+      }
+
+      img + .header-box-line {
+        max-width: 229px;
+        width: 100%;
+      }
+
+      img + .content-box-line {
+        max-width: 337px;
+        width: 100%;
+      }
+    }
+
+    .trip-box-right {
+      img {
+        max-width: 337px;
+        width: 100%;
+      }
+
+      img + .date-box-line {
+        max-width: 151px;
+        width: 100%;
+      }
+
+      img + .header-box-line {
+        max-width: 229px;
+        width: 100%;
+      }
+
+      img + .content-box-line {
+        max-width: 337px;
+        width: 100%;
+      }
+    }
+  }
+}
+
+@media (min-width: 767px) {
+  .triple-content-box {
+    margin-top: 16px;
+    display: flex;
+
+    .trip-box-left {
+      img {
+        max-width: 337px;
+        width: 100%;
+      }
+    }
+
+    .trip-box-center {
+      margin-right: 32px;
+      margin-left: 32px;
+
+      img {
+        max-width: 337px;
+        width: 100%;
+      }
+    }
+
+    .trip-box-right {
+      img {
+        max-width: 337px;
+        width: 100%;
+      }
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .triple-content-box {
+    margin-top: 16px;
+    display: flex;
+    flex-direction: column;
+    .trip-box-left {
+      img {
+        width: 100%;
+      }
+    }
+
+    .trip-box-center {
+      margin-top: 24px;
+      img {
+        width: 100%;
+      }
+    }
+
+    .trip-box-right {
+      margin-top: 24px;
+      img {
+        width: 100%;
+      }
+    }
+  }
+}
