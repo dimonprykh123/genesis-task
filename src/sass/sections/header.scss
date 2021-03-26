@@ -21,7 +21,6 @@ header {
       display: none;
     }
     .more-btn {
-      display: flex;
       &:focus {
         outline: none;
       }
@@ -39,7 +38,7 @@ header {
       height: 100%;
     }
   }
-  @media (min-width: 1024px) {
+  @media (min-width: 1023px) {
     nav {
       display: flex;
       align-items: center;
